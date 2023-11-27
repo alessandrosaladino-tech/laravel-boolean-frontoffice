@@ -41,11 +41,11 @@ export default {
                 <h3 class="text-center text-truncate text-danger">{{ cocktail.name }}</h3>
                 <div class="d-flex justify-content-center flex-wrap gap-3">
 
-                    <span class="badge rounded-pill text-bg-info bg-light text-center">
-                        <small class="badge rounded-pill text-bg-danger m-1" v-for="ingredient in this.ingredients">{{
+                    <span class="badge rounded-pill text-bg-info bg-light d-flex flex-wrap justify-content-center">
+                        <small class="badge rounded-pill text-bg-danger m-1 " v-for="ingredient in this.ingredients">{{
                             ingredient }}</small>
                     </span>
-                    <span class="badge rounded-pill text-bg-info bg-light text-center">
+                    <span class="badge rounded-pill text-bg-info bg-light d-flex flex-wrap justify-content-center">
                         <small class="badge rounded-pill text-bg-primary  bg-dark m-1" v-for="measure in this.measures">{{
                             measure }}</small>
                     </span>
